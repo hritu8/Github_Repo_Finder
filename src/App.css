@@ -1,0 +1,46 @@
+/* App.css */
+body {
+  background-color: #f8f9fa; /* Light grey background for the entire page */
+  color: #333; /* Dark text color */
+}
+
+.container {
+  background-color: #ffffff; /* White background for the main container */
+  border-radius: 8px; /* Rounded corners for the main container */
+  padding: 20px; /* Padding inside the main container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif; /* Font for the title */
+  font-weight: 700; /* Bold title */
+  color: #007bff; /* Primary blue color for the title */
+}
+
+.input-group .form-control {
+  border: 2px solid #007bff; /* Blue border for the input */
+  border-radius: 4px 0 0 4px; /* Rounded corners for the input */
+}
+
+.input-group .btn-primary {
+  border-radius: 0 4px 4px 0; /* Rounded corners for the button */
+}
+
+.list-group-item {
+  border: 1px solid #dee2e6; /* Light grey border for each repo item */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.list-group-item:hover {
+  transform: scale(1.02); /* Slight zoom on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow on hover */
+}
+
+.text-primary {
+  color: #0056b3 !important; /* Darker blue for links */
+}
+
+.badge-info {
+  background-color: #17a2b8; /* Teal color for language badges */
+  color: white;
+}
